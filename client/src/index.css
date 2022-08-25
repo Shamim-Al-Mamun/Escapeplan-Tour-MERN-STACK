@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  /* --secondaryColor: #eb4747; */
+  /* --secondaryColor: tomato;
+  --btn-color: #ff6666;
+  --btn-color-deep: #ff9999; */
+  --text-color: #faebd780;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+::placeholder {
+  font-size: small !important;
+}
+.slick-dots {
+  display: none !important;
+}
+nav {
+  position: fixed !important;
+}
+input {
+  height: 40px;
+  padding: 10px;
+  min-width: 300px;
+  padding-left: 25px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+}
+.text-shadow {
+  text-shadow: 5px 5px 10px black;
+}
+@media screen and (max-width: 640px) {
+  .text-xs {
+    font-size: 8px;
+  }
+  .text-sm {
+    font-size: 12px;
+  }
+  .text-lg {
+    font-size: 16px;
+  }
+  .text-2xl {
+    font-size: 16px;
+  }
+  .text-6xl {
+    font-size: 30px;
+  }
+  .alert {
+    width: 80% !important;
+    left: 10% !important;
+  }
+  .text-alert {
+    font-size: 12px;
+  }
+  input {
+    min-width: 200px;
+    height: 35px;
+  }
+  button {
+    min-width: 100px !important;
+    height: 35px !important;
+  }
+}

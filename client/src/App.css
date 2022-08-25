@@ -1,0 +1,41 @@
+.home {
+  background-image: url(./Images/home_pic.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.propic {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  margin: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.Carouselpic {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+@keyframes example {
+  from {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    width: 200px;
+    height: 300px;
+    opacity: 1;
+  }
+}
+.sidebar {
+  width: 200px;
+  height: 300px;
+  margin-top: 80px;
+  border-radius: 5px;
+  animation-name: example;
+  animation-duration: 0.1s;
+}
